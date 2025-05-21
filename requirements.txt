@@ -1,0 +1,51 @@
+# LangChain Dependencies
+langchain==0.2.16
+langchain-core==0.2.43
+langchain-community==0.2.16
+langchain-text-splitters==0.2.4
+langchain-experimental==0.0.65
+langchain-openai==0.1.23
+langchain-anthropic==0.1.23
+langchain-google-genai==1.0.10
+langchain-groq==0.1.10
+langchain-huggingface==0.0.3
+langchain-ollama==0.1.3
+langchain-chroma==0.1.3
+langsmith==0.1.147
+
+# AI/ML Dependencies
+numpy==1.26.4  # Python 3.11 호환
+torch==2.2.1  # macOS 호환 버전
+transformers==4.44.2
+sentence-transformers==3.1.0
+scikit-learn==1.6.1
+tiktoken==0.7.0
+
+# Data Processing
+pandas==2.2.3
+seaborn==0.13.2
+pypdf==4.3.1
+bs4==0.0.2
+jq==1.8.0
+faiss-cpu==1.8.0.post1  # Python 3.11 호환
+rank-bm25==0.2.2
+openpyxl==3.1.5
+
+# Web/API
+gradio==4.44.0
+python-dotenv==1.0.1
+pydantic==2.11.4
+aiohttp==3.11.18  # 추가된 의존성
+httpx==0.28.1     # 추가된 의존성
+
+# NLP Tools
+kiwipiepy==0.18.1  # Python 3.11 호환
+deepl==1.18.0
+langdetect==1.0.9
+krag==0.0.25
+
+# Additional Dependencies
+protobuf>=4.25.7   # Google API 의존성
+grpcio>=1.71.0     # gRPC 의존성
+urllib3>=2.4.0     # 보안 업데이트
+PyYAML>=6.0.2      # 보안 업데이트
