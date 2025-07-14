@@ -49,3 +49,15 @@ protobuf>=4.25.7   # Google API 의존성
 grpcio>=1.71.0     # gRPC 의존성
 urllib3>=2.4.0     # 보안 업데이트
 PyYAML>=6.0.2      # 보안 업데이트
+
+# New dependencies
+streamlit>=1.28.0
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-openai>=0.0.5
+langchain-chroma>=0.1.0
+langchain-text-splitters>=0.0.1
+python-dotenv>=1.0.0
+pypdf>=3.17.0
+chromadb>=0.4.15
+openai>=1.6.0
