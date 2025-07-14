@@ -42,3 +42,12 @@ chroma_db/
 
 # Logs
 *.log 
+
+manual_/
+manual/
+md/
+
+faiss_ai_samaple_index/
+
+LangChain_manual_Searching.ipynb
+LangChain_manual_Searching_Copy.ipynb
