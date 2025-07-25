@@ -1,0 +1,60 @@
+[
+  {
+    "manual_type": "namespaces",
+    "menu_type": "namespaces",
+    "section": "Namespace 조회 ",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/namespaces",
+    "image_urls": []
+  },
+  {
+    "manual_type": "namespaces",
+    "menu_type": "namespaces",
+    "section": "Namespace 목록 메뉴 진입시 상위 선택된 프로젝트클러스터 내 Namespace 목록을 확인할 수 있습니다. Namespace가 등록된 프로젝트, 클러스터, status 등 확인합니다. status의 종류는 아래와 같습니다. Active Terminating ",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/namespaces",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/img/list.png"
+    ]
+  },
+  {
+    "manual_type": "namespaces",
+    "menu_type": "namespaces",
+    "section": "Namespace 상세정보 Namespace의 생성 날짜와 Labels, 상태를 표시합니다. ",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/namespaces",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/img/detail.png"
+    ]
+  },
+  {
+    "manual_type": "namespaces",
+    "menu_type": "namespaces",
+    "section": "Namespace Metric CPU Namespace의 CPU 차트를 표시합니다.  Memory Namespace의 Memory 차트를 표시합니다.  Disk Namespace의 Disk 차트를 표시합니다. total write, read 두개의 차트를 표시합니다.  Network Namespace의 Network의 metric 차트를 표시합니다. network in, out 두개의 차트를 표시합니다. ",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/namespaces",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/img/metric_cpu.png",
+      "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/img/metric_memory.png",
+      "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/img/metric_disk.png",
+      "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/img/metric_network.png"
+    ]
+  },
+  {
+    "manual_type": "namespaces",
+    "menu_type": "namespaces",
+    "section": "namespace 생성 1. 생성 버튼 클릭하면 이미지와 같이 팝업이 뜨고, 확인 버튼 클릭하면 생성 페이지로 이동합니다. 2. 이미지와 같이 생성할 Namespace 자원을 입력하고 확인 버튼 클릭합니다. Project  네임스페이스를 생성할 프로젝트를 선택합니다. Cluster  네임스페이스를 생성할 클러스터를 선택합니다. Namespace  생성할 네임스페이스 이름을 입력합니다. 사용목적  사용목적을 입력합니다. CPUCore  생성할 Namespace 필요한 최대 Cpu 사용량을 선택합니다. MemoryGiB  생성할 Namespace 필요한 최대 Memory 사용량을 선택합니다. StorageGiB  생성할 Namespace 필요한 최대 Storage 사용량을 선택합니다. 확인 버튼 클릭하면 Namespace 신청이 완료됩니다. 신청되면 결재 프로세스 진행됩니다. 2단계 결재까지 완료되면 네임스페이스 생성됩니다. 결재 단계 승인자는 아래와 같습니다. 결재 1단계  운영자가 결재 결재 2단계  프로젝트 관리자가 결재 ",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/namespaces",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/img/create_button.png",
+      "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/img/create.png",
+      "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/img/create_action_button.png",
+      "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/img/create_approval.png"
+    ]
+  },
+  {
+    "manual_type": "namespaces",
+    "menu_type": "namespaces",
+    "section": "namespace 삭제 삭제하고자하는 namespace 선택 후, 삭제 버튼 클릭하면 해당 namespace가 삭제됩니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/namespaces",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/namespaces/namespaces/img/delete.png"
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "manual_type": "platform",
+    "menu_type": "harbor",
+    "section": "목차 1. Harbor 메뉴 이동 2. Harbor 화면 이동",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/platform/harbor/harbor",
+    "image_urls": []
+  },
+  {
+    "manual_type": "platform",
+    "menu_type": "harbor",
+    "section": "1. Harbor 메뉴 이동 1. 좌측 메뉴 Harbor 클릭 Platform 메뉴 하위의 Harbor를 클릭하면 해당 메뉴를 확인 할 수 있습니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/platform/harbor/harbor",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/platform/harbor/img/harbor_menu.png"
+    ]
+  },
+  {
+    "manual_type": "platform",
+    "menu_type": "harbor",
+    "section": "2. Harbor 화면 이동 1. 메뉴 클릭 시 Harbor 포탈이 새창으로 띄워집니다. 2. Harbor 포탈을 새로 열고 싶다면 Harbor 페이지로 이동 버튼 클릭",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/platform/harbor/harbor",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/platform/harbor/img/harbor_page2.png",
+      "https://doc.tg-cloud.co.kr/manual/console/platform/harbor/img/harbor_button.png"
+    ]
+  }
+]

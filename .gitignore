@@ -43,8 +43,6 @@ chroma_db/
 # Logs
 *.log 
 
-manual_/
-manual/
 md/
 
 faiss_ai_samaple_index/

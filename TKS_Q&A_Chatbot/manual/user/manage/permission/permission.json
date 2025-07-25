@@ -1,0 +1,69 @@
+[
+  {
+    "manual_type": "manage",
+    "menu_type": "permission",
+    "section": "1. Project 정보 조회",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/manage/permission/permission",
+    "image_urls": []
+  },
+  {
+    "manual_type": "manage",
+    "menu_type": "permission",
+    "section": "1.1. 리스트 조회 - 화면 진입시 콘솔 내 추가된 프로젝트 리스트가 조회됩니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/manage/permission/permission",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/manage/permission/img/permission_project_list.png"
+    ]
+  },
+  {
+    "manual_type": "manage",
+    "menu_type": "permission",
+    "section": "1.2. 상세정보 조회 - 프로젝트 리스트 내에 특정 프로젝트를 선택하면 상세 내역이 조회됩니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/manage/permission/permission",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/manage/permission/img/permission_project_info.png"
+    ]
+  },
+  {
+    "manual_type": "manage",
+    "menu_type": "permission",
+    "section": "1.3. Namespace 조회 - 프로젝트 리스트 내에 특정 프로젝트를 선택하면 프로젝트내 속한 네임스페이스 목록이 조회됩니다. ",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/manage/permission/permission",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/manage/permission/img/project_namespaces.png"
+    ]
+  },
+  {
+    "manual_type": "manage",
+    "menu_type": "permission",
+    "section": "2. 권한 부여",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/manage/permission/permission",
+    "image_urls": []
+  },
+  {
+    "manual_type": "manage",
+    "menu_type": "permission",
+    "section": "2.1. 프로젝트 내 속한 유저 목록 조회 - 권한을 부여할 네임스페이스 선택 후 권한관리 버튼을 클릭하면 상위 그리드에서 선택된 프로젝트 하위에 할당된 유저 목록이 조회됩니다. - 권한관리 팝업 내에는 선택한 네임스페이스 정보 및 유저에게 할당되어 있는 권한 정보가 조회 됩니다. !img.png",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/manage/permission/permission",
+    "image_urls": []
+  },
+  {
+    "manual_type": "manage",
+    "menu_type": "permission",
+    "section": "2.2. 네임스페이스 내 권한 부여 - 권한 할당은 가장 우측 role 을 선택한 후 권한변경 버튼을 통하여 부여를 할 수 있습니다. - tks--ns-admin role 은 네임스페이스 내 admin 권한이며 해당 role 선택 시 네임스페이스 대표관리자로 지정할 수 있습니다. 대표관리자는 네임스페이스 내 한명만 지정이 가능합니다. - 아래는 유저의 권한을 tks--ns-user 에서 tks--ns-admin 으로 변경하고 있습니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/manage/permission/permission",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/manage/permission/img/namespace_permission_assign.png"
+    ]
+  },
+  {
+    "manual_type": "manage",
+    "menu_type": "permission",
+    "section": "2.3. 권한 할당 확인 - 권한 변경 후 권한관리 팝업에서 유저의 권한이 변경된것을 확인할 수 있으며 권한을 변경한 namespace 를 상단에서 선택 후 AccessControl  RoleBinding 화면을 통하여 Rolebinding 도 변경된것을 확인할 수 있습니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/manage/permission/permission",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/manage/permission/img/portal_permission_assign_result.png",
+      "https://doc.tg-cloud.co.kr/manual/console/manage/permission/img/k8s_permission_assign_result.png"
+    ]
+  }
+]

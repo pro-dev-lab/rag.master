@@ -1,0 +1,11 @@
+[
+  {
+    "manual_type": "workload",
+    "menu_type": "overview",
+    "section": "Overview 화면 메뉴 진입시 상위 선택된 클러스터네임스페이스의 overview 화면이 조회됩니다. Namespace에 서비스 중인 workload 자원의 통계와 event 목록을 확인합니다. Chart  Namespace에 서비스 중인 workload 통계를 확인합니다. Events  Namespace 발생한 Event 목록을 확인합니다. Type 으로는 Normal, Warning 두 type 있습니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/workload/overview/overview",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/workload/overview/img/overview_overview.png"
+    ]
+  }
+]

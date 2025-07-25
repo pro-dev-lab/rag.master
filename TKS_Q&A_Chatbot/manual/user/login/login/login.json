@@ -1,0 +1,28 @@
+[
+  {
+    "manual_type": "login",
+    "menu_type": "login",
+    "section": "목차 1. 로그인 페이지 2. 로그인을 통한 인증",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/login/login/login",
+    "image_urls": []
+  },
+  {
+    "manual_type": "login",
+    "menu_type": "login",
+    "section": "1. 로그인 페이지 1. 브라우저 URL 창에 httpstkctl.tg-cloud.co.kr을 입력 포탈 URL을 입력 후 접속합니다. 로그인 인증이 되어있지 않다면, 로그인 창으로 이동합니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/login/login/login",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/login/login/img/login_url.png"
+    ]
+  },
+  {
+    "manual_type": "login",
+    "menu_type": "login",
+    "section": "2. 로그인을 통한 인증 1. 로그인이 되어있지 않은 사용자는 로그인 창에서 ID와 PW를 입력합니다. - ID username 또는 email 형식으로 입력 - PW 로그인 계정의 비밀번호 2. 로그인이 완료되면 포탈 화면으로 이동합니다. 계정 인증에 성공했다면 포탈을 사용할 수 있습니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/login/login/login",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/login/login/img/login_input.png",
+      "https://doc.tg-cloud.co.kr/manual/console/login/login/img/login_success.png"
+    ]
+  }
+]

@@ -1,0 +1,95 @@
+[
+  {
+    "manual_type": "network",
+    "menu_type": "networkpolicies",
+    "section": "목차 1. NetworkPolicy 조회 리스트 조회 상세정보 조회 Ingress 조회 Egress 조회 이벤트 조회 2. NetworkPolicy 생성 3. NetworkPolicy 수정 4. NetworkPolicy 삭제",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/networkpolicies",
+    "image_urls": []
+  },
+  {
+    "manual_type": "network",
+    "menu_type": "networkpolicies",
+    "section": "1. NetworkPolicy 조회",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/networkpolicies",
+    "image_urls": []
+  },
+  {
+    "manual_type": "network",
+    "menu_type": "networkpolicies",
+    "section": "리스트 조회 메뉴 진입시 상위 선택된 클러스터네임스페이스 내 NetworkPolicy 목록이 조회됩니다. NetworkPolicy가 속한 네임스페이스, Policy Types, Age 정보를 확인할 수 있습니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/networkpolicies",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_list.png"
+    ]
+  },
+  {
+    "manual_type": "network",
+    "menu_type": "networkpolicies",
+    "section": "상세정보 조회 리스트에서 특정 NetworkPolicy를 선택하면 하단 상세정보 탭에 NetworkPolicy의 상세 정보가 조회됩니다. 선택된 NetworkPolicy의 생성일시, 네임스페이스, Pod Selector 등을 확인할 수 있습니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/networkpolicies",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_detail.png"
+    ]
+  },
+  {
+    "manual_type": "network",
+    "menu_type": "networkpolicies",
+    "section": "Ingress 조회 ingress는 외부에서 해당 Pod으로 들어오는 트래픽에 대한 허용 규칙을 정의하는 필드입니다. 이 필드가 설정되면, 명시된 조건을 만족하는 트래픽만 해당 Pod으로 들어올 수 있습니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/networkpolicies",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_ingress.png"
+    ]
+  },
+  {
+    "manual_type": "network",
+    "menu_type": "networkpolicies",
+    "section": "Egress 조회 egress는 Pod에서 외부로 나가는 트래픽을 제어하는 필드입니다. 이 필드를 통해, 어떤 대상에게 트래픽을 보낼 수 있을지 정의할 수 있습니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/networkpolicies",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_egress.png"
+    ]
+  },
+  {
+    "manual_type": "network",
+    "menu_type": "networkpolicies",
+    "section": "이벤트 조회 NetworkPolicy에 발생한 이벤트 정보가 조회됩니다. 발생한 이벤트가 없을 경우 목록에서 표시되지 않습니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/networkpolicies",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_event.png"
+    ]
+  },
+  {
+    "manual_type": "network",
+    "menu_type": "networkpolicies",
+    "section": "2. NetworkPolicy 생성1. 목록 위 생성 버튼을 클릭합니다. 2. NetworkPolicy를 생성하는 Yaml 템플릿이 노출됩니다. 3. 템플릿 내 변수를 치환하여 생성하고자 하는 NetworkPolicy Yaml을 작성하고 확인 버튼을 클릭합니다. ex yaml apiVersion networking.k8s.iov1 kind NetworkPolicy metadata name develop-np2 namespace develop spec podSelector matchLabels app web policyTypes - Ingress ingress - from - podSelector matchLabels role frontend ports - protocol TCP port 80 metadata  namespace에 입력한 namespace에 NetworkPolicy 생성됩니다. 상단 헤더에 선택된 클러스터 내에 존재하는 namespace 입력 4. NetworkPolicy가 정상적으로 생성된 것을 확인합니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/networkpolicies",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_create.png",
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_create_template.png",
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_create_yaml.png",
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_create_result.png"
+    ]
+  },
+  {
+    "manual_type": "network",
+    "menu_type": "networkpolicies",
+    "section": "3. NetworkPolicy 수정1. 수정하고자 하는 NetworkPolicy를 선택하고 목록 위 수정 버튼을 클릭합니다. 2. NetworkPolicy가 Yaml 형태로 조회됩니다. 원하는 데이터로 Yaml을 수정한 후 확인 버튼을 클릭합니다. 3. 하단의 상세정보 탭 또는 IngressEgress 탭에서 NetworkPolicy가 수정된 것을 확인합니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/networkpolicies",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_update.png",
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_update_yaml.png",
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_update_result.png"
+    ]
+  },
+  {
+    "manual_type": "network",
+    "menu_type": "networkpolicies",
+    "section": "4. NetworkPolicy 삭제1. 삭제하고자 하는 NetworkPolicy를 선택하고 목록 위 삭제 버튼을 클릭합니다. 2. 삭제를 확인하는 알림창이 노출되면 확인 버튼을 클릭합니다. 3. 목록에서 NetworkPolicy가 삭제된 것을 확인합니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/networkpolicies",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_delete.png",
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_delete_check.png",
+      "https://doc.tg-cloud.co.kr/manual/console/network/networkpolicies/img/np_delete_result.png"
+    ]
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "manual_type": "firstUser",
+    "menu_type": "login",
+    "section": "목차 1. 로그인 페이지 2. 로그인을 통한 인증 ",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/firstUser/login/login",
+    "image_urls": []
+  },
+  {
+    "manual_type": "firstUser",
+    "menu_type": "login",
+    "section": "1. 로그인 페이지 1. 브라우저 URL 창에 httpstkctl.tg-cloud.co.kr을 입력 포탈 URL을 입력 후 로그인 인증이 되어있지 않다면, 로그인 창으로 이동합니다. ",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/firstUser/login/login",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/firstUser/login/img/login_url.png"
+    ]
+  },
+  {
+    "manual_type": "firstUser",
+    "menu_type": "login",
+    "section": "2. 로그인을 통한 인증 1. 로그인이 되어있지 않은 사용자는 로그인 창에서 ID와 PW를 입력합니다. - ID username 또는 email 형식으로 입력 - PW 로그인 계정의 비밀번호 2. 로그인이 완료되면 포탈 화면으로 진입 - portal 최초 로그인 시 유저에게 할당된 메뉴는 위와 같으며 프로젝트가 할당되어 있지 않으면 Project 메뉴로 이동하게 되며 직접 프로젝트 생성 또는 관리자에게 프로젝트 할당 요청을 해야합니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/firstUser/login/login",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/firstUser/login/img/login_input.png",
+      "https://doc.tg-cloud.co.kr/manual/console/firstUser/login/img/login_first_menu.png",
+      "https://doc.tg-cloud.co.kr/manual/console/firstUser/login/img/login_success.png"
+    ]
+  }
+]

@@ -1,0 +1,76 @@
+[
+  {
+    "manual_type": "accesscontrol",
+    "menu_type": "clusterroles",
+    "section": "1. ClusterRole 조회",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/clusterroles",
+    "image_urls": []
+  },
+  {
+    "manual_type": "accesscontrol",
+    "menu_type": "clusterroles",
+    "section": "1.1. 리스트 조회 화면 진입시 상위 선택된 클러스터 내 ClusterRole 목록이 조회됩니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/clusterroles",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/img/clusterrole_list.png"
+    ]
+  },
+  {
+    "manual_type": "accesscontrol",
+    "menu_type": "clusterroles",
+    "section": "1.2. 상세정보 조회 리스트에서 특정 ClusterRole을 선택하면 하단 상세정보 탭에 ClusterRole의 상세 정보가 조회됩니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/clusterroles",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/img/clusterrole_info.png"
+    ]
+  },
+  {
+    "manual_type": "accesscontrol",
+    "menu_type": "clusterroles",
+    "section": "1.3. Rules 정보 조회 ClusterRole이 부여하는 구체적인 권한을 정의하는 핵심적인 부분입니다. 각 규칙 객체는 특정 API 그룹 내의 특정 리소스에 대해 허용되는 동작verbs을 명시합니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/clusterroles",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/img/clusterrole_rules.png"
+    ]
+  },
+  {
+    "manual_type": "accesscontrol",
+    "menu_type": "clusterroles",
+    "section": "1.4. ClusterRole 내 발생한 이벤트 정보 조회 리스트에서 선택된 ClusterRole에 발생한 이벤트 정보가 조회됩니다. 발생한 이벤트가 없을 경우 목록에서 표시되지 않습니다. ",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/clusterroles",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/img/clusterrole_event.png"
+    ]
+  },
+  {
+    "manual_type": "accesscontrol",
+    "menu_type": "clusterroles",
+    "section": "2. ClusterRole 생성 상단 생성 버튼을 클릭하게 되면 ClusterRole 생성에 필요한 yaml 템플릿 정보가 조회됩니다. 변수 치환 부분을 생성에 맞는 정보로 변경하여 확인 버튼을 클릭하게 되면 ClusterRole이 정상적으로 생성됩니다. 해당 자원은 Cluster Scope 자원이기에 상단 셀렉트 박스에 선택된 클러스터 하위에 자원이 생성됩니다. yaml apiVersion rbac.authorization.k8s.iov1 kind ClusterRole metadata name dev-clusterrole-test rules - verbs - get - list - watch apiGroups -  resources - nodes ",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/clusterroles",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/img/clusterrole_create_template.png",
+      "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/img/clusterrole_create_yaml.png",
+      "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/img/clusterrole_create_result.png"
+    ]
+  },
+  {
+    "manual_type": "accesscontrol",
+    "menu_type": "clusterroles",
+    "section": "3. ClusterRole 수정 수정할 ClusterRole 선택 후 상단 수정 버튼을 클릭하게 되면 ClusterRole 의 metadata yaml 정보가 조회됩니다. 수정할 항목을 변경 verbs 변경 후 확인 버튼을 클릭하면 ClusterRole 메타 정보가 변경됩니다. 변경 후 ClusterRole를 선택하여 Rules 내에서 변경된 정보를 확인할 수 있습니다. yaml apiVersion rbac.authorization.k8s.iov1 kind ClusterRole metadata creationTimestamp 2025-06-26T052134Z managedFields - apiVersion rbac.authorization.k8s.iov1 fieldsType FieldsV1 fieldsV1 frules  manager OpenAPI-Generator operation Update time 2025-06-26T052134Z name dev-clusterrole-test resourceVersion 183562873 uid 57e5ad0a-e156-4fe6-82a0-883c83bac75a rules - apiGroups -  resources - nodes verbs - get - list ",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/clusterroles",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/img/clusterrole_modify.png",
+      "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/img/clusterrole_modify_result.png"
+    ]
+  },
+  {
+    "manual_type": "accesscontrol",
+    "menu_type": "clusterroles",
+    "section": "4. ClusterRole 삭제 삭제할 ClusterRole를 선택 후 상단 삭제 버튼을 클릭하게 되면 ClusterRole이 삭제됩니다. 삭제 후 리스트에서 ClusterRole이 제거된것을 확인할 수 있습니다.",
+    "source_url": "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/clusterroles",
+    "image_urls": [
+      "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/img/clusterrole_delete.png",
+      "https://doc.tg-cloud.co.kr/manual/console/accesscontrol/clusterroles/img/clusterrole_delete_result.png"
+    ]
+  }
+]
